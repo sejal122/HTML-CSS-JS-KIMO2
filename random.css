@@ -1,0 +1,28 @@
+body{
+    background-image:url('/asstes/car_green.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+.maindiv{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: columrown;
+    justify-content: space-around;
+}
+.circles{
+    width: 500px;
+    height: 500px;
+    border-radius: 800px;
+    margin: 5px;
+    background-color: rgb(151, 96, 28);
+    -webkit-border-radius: 800px;
+    -moz-border-radius: 800px;
+    -ms-border-radius: 800px;
+    -o-border-radius: 800px;
+}
+.circles:hover{
+    opacity: 0;
+}

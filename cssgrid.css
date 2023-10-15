@@ -1,0 +1,33 @@
+.mainGrid{
+display: grid;
+width: 100%;
+height: 1000px !important;
+background-color: purple;
+grid-template-columns: 100px 1fr 1fr;
+grid-template-rows: 100px 1fr 70px;
+row-gap: 5px;
+column-gap: 5px;
+}
+.section{
+    text-align: center;
+    background-color: pink;
+}
+.header{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.sidemenu{
+    background-color: yellow;
+    grid-row-start: 2;
+    grid-row-end:6
+}
+.maincontent{
+    grid-column-start: 2;
+    grid-column-end:4
+}
+.footer{
+    background-color: brown;
+    grid-column-start: 2;
+    grid-column-end:4
+}

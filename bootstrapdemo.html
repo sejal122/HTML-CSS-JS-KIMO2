@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+<!-- <div class="d-flex text-center ">
+    <div class="m-3 p-3 bg-primary text-danger">
+        div1
+
+    </div>
+    <div class="m-3 p-3 bg-secondary text-warning"></divclass>
+        div2
+    </div>
+    
+</div> -->
+
+<!-- <button class="btn btn-secondary">button</button>
+<button class="btn btn-primary">button</button>
+
+<button class="btn btn-danger">button</button>
+<button class="btn btn-info">button</button>
+<button class="btn btn-light">button</button>
+<button class="btn btn-dark">button</button>
+<button class="btn btn-success">button</button>
+<button class="btn btn-warning">button</button>
+
+
+<button class="btn btn-outline-secondary">button</button>
+<button class="btn btn-primary">button</button>
+
+<button class="btn btn-outline-danger">button</button>
+<button class="btn btn-outline-info">button</button>
+<button class="btn btn-outline-light text-danger">button</button>
+<button class="btn btn-outline-dark">button</button>
+<button class="btn btn-success btn-sm">button</button>
+<button class="btn btn-warning btn-lg disabled">button</button> -->
+
+
+<!-- 
+<div class="container-fluid maindiv">
+<div class="row g-2">
+<div class="col g-2 col-lg-6 col-md-6 col-sm-12 col-12">
+<h1 class="text-center">BMW X5!</h1>
+</div>
+<div class="col g-2 col-lg-6 col-md-6 col-sm-12 col-12">
+    <img src="/asstes/car_green.jpeg">
+    </div>
+    
+     
+</div>
+
+</div> -->
+
+
+<div class="mb-2">
+<label class="form-control-lg m-2">Email address</label>
+<input type="email" class="form-control-lg m-2" placeholder="email@example.com">
+<label class="form-control m-2">Write to us!</label>
+<input type="password" class="form-control " disabled>
+<textarea class="form-control m-2" rows="5"></textarea>
+<button id="submitbtn" class="btn btn-primary" onclick="btnclicked()">SUBMIT</button>
+</div>
+select
+
+<select class="form-select">
+<option selected> open the menu</option>
+<option value="2">two</option>
+<option value="1">one</option>
+<option value="3">three</option>
+</select>
+<!-- 
+<div class="form-check">
+    <input class="form-check-input" type="radio" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+      terms and conditions applied
+    </label>
+  </div>
+  <div class="row g-3">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+  </div> -->
+
+  <div class="form-check form-switch">
+    <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+    <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+  </div>
+ 
+
+  <div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Menu</button>
+<ul class="dropdown-menu">
+<li class="dropdown-item">Settings</li>
+<li class="dropdown-item">Account</li>
+<li class="dropdown-item">Logout</li>
+</ul>
+  </div>
+  <script>
+    var btn = document.getElementById('submitbtn');
+    function btnclicked(){
+        
+        alert('submit button clicked');}
+    
+    
+ </script>
+  <!-- <script src="main.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

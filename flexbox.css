@@ -1,0 +1,30 @@
+.mainDiv{
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:flex-start; */
+    height: 500px;
+    align-items:stretch;
+  
+}
+.mainDiv div{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}
+
+.div1{
+  align-self:flex-end;
+    background-color: yellow;
+}
+.div2{
+    flex-grow:0;
+    background-color: aqua;
+}
+.div3{
+   
+    background-color: pink;
+}

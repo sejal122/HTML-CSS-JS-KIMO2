@@ -1,0 +1,82 @@
+
+#divblue{
+    background-color: aqua;
+}
+#divgreen{
+    background-color: green;
+}
+#divyellow{
+    background-color: yellow;
+}
+a[href='https://google.com']{
+    background-color: black;
+    color: white;
+}
+div[class='divs']{
+    height: 400px;
+}
+.divs{
+    height: 200px;
+    }
+#mainBody .h1{
+    color: blueviolet;
+}
+#mainBody{
+    background-color: aqua;
+}
+div{
+  
+}
+#mainbody + p{
+    color:green
+}
+button:hover{
+background-color: chartreuse;
+
+
+cursor:help;
+}
+button[class='required']::before{
+    content: "*";
+    color: red;
+}
+.boxmodelDiv{
+
+    box-sizing: border-box;
+    width: 200px;
+    background-color: aqua;
+    border: 10px solid black;
+    padding: 15px;
+   
+}
+.cssP{
+    background-color: blanchedalmond;
+}
+
+#absolutediv{
+    position: absolute;
+    top: 10%;
+    left: 20;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#relativedIV{
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+}
+#relativedIV>div{
+background-color: red;
+width: 200px;
+height: 200px;
+ position: absolute;  
+ top: 55px; 
+ left: 55px;
+}
+h1{
+    
+    top: 4em;
+    left: 6em;
+}
